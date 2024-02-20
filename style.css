@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 150px 50px;
+}
+
+.nav {
+   display:flex; 
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+   gap:20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+ul {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.mainimg {
+    width: 400px;
+    height: auto;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.imgb {
+    width: 125px;
+    height: auto;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    max-width: 125px;
+}
+
+.third {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 100px;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+}
+
+cite {
+    font-size: 24px;
+    font-style: normal;
+    display: block;
+    text-align: right;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#E5E7EB;
+    padding:70px;
+
+}
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 80px;
+    gap: 52px;
+    border-radius: 25px;
+}
+
+.buttoncta {
+    border: solid #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #f9faf8;
+    padding: 25px;
+}
